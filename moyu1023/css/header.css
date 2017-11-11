@@ -1,0 +1,48 @@
+#header-box{
+	width:1200px;height:45px;
+	margin: 0 auto;
+}
+#header-box>a:first-child{
+	width: 150px;height: 100%;
+	margin-left:10px ;
+	background: url(../img/header/header.gif) no-repeat 0 0 ;
+}
+#header-box>p:nth-child(2){
+	width: 178px;height: 100%;
+}
+#header-box>p:nth-child(2)>a{
+	display: block;
+	width: 111px;height: 30px;
+	text-align: center;
+	font:14px/30px normal;
+	position: relative;
+	margin:7px 0 0 5px;
+	border:1px solid #727272;
+}
+#header-box>p:nth-child(2)>a>span{
+	display:inline-block;border:5px solid #727272;
+	border-bottom-color:transparent;	
+	border-left-color:transparent;	
+	border-right-color:transparent;
+	position: relative;left:10px;top:3px;
+}
+#header-box>a:nth-child(3){
+	width: 490px;height: 45px;
+	background: url(../img/header/header-image.jpg);
+}
+#header-box>div:nth-child(4) li{
+	position: relative;
+	line-height: 45px;
+	width: 42px;height: 45px;
+}
+#header-box>div:nth-child(4) li>a{
+	width: 30px;height: 17px;
+	text-align: center;font-size:12px;margin: 0 5px;
+}
+#header-box>a:last-child{
+	width: 96px;height: 45px;
+	line-height:45px;font-size:12px;
+	text-align: center;
+	background: url(../img/header/icon5.gif) no-repeat 0 7px ;
+	margin-right:10px ;
+}

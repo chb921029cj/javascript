@@ -1,0 +1,24 @@
+dl,dt,dd,ul,li{
+	margin:0;
+	padding: 0;
+}
+dl,ul{
+	list-style:none;
+}
+dl{
+	float:left;
+}
+/* 列图片居中文字居中*/
+.top-list{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	background-color: red;
+	font-size:12px;
+	vertical-align: middle;
+}
+.top-list img:first-child{
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
